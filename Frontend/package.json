@@ -1,0 +1,30 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend",
+  "author": "hadihaider055",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "aws-amplify": "^4.3.8",
+    "gatsby": "^4.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "gatsby-plugin-postcss": "^5.2.0",
+    "postcss": "^8.4.1",
+    "tailwindcss": "^2.2.19"
+  }
+}
